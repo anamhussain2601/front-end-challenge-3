@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.app{
+  margin: auto;
+  width: 50%;
+  background-color:#ffffff;
+}
+.container{
+  padding: 10px;
+}
+.comment{
+  padding: 10px;
+}
+.new-comment{
+  display:flex;
+  justify-content: space-between;
+}
+.single-comment{
+  background-color:#d6d5d5;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+}
+.single-reply{
+  background-color:#e2e1e1;
+  padding: 10px;
+  margin: 5px;
+  width:80%;
+  border-radius: 20px;
+  font-size: 13px;
+}
+button{
+  background-color:#008CBA;
+  border: none;
+  color: white;
+  padding: 3px 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 5px;
+  width:20%;
+}
+ul {
+  list-style-type: none;
+}
+li{
+  margin: 0;
+  padding: 0;
+};
+
+
+input{
+  padding: 4px 8px;
+  width: 33%;
+}
+input ~ button{
+  padding:7px 15px;
+  float: right;
+}
